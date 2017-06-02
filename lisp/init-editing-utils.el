@@ -113,14 +113,19 @@
 ;; (global-set-key (kbd "C-c c e") 'mc/edit-ends-of-lines)
 ;; (global-set-key (kbd "C-c c a") 'mc/edit-beginnings-of-lines)
 
+;; for window-numbering package
+(require-package 'window-numbering)
+(require 'window-numbering)
+(window-numbering-mode 1)
+
 ;; switch-window
-(require 'init-switch-window)
+;;(require 'init-switch-window)
 ;; Set "C-x p" to select the previous window
-(defun other-window-backward (&optional n)
-  "Select the Nth previous window"
-  (interactive "P")
-  (other-window (- (prefix-numeric-value n))))
-(global-set-key "\C-xp" 'other-window-backward)
+;;(defun other-window-backward (&optional n)
+;;  "Select the Nth previous window"
+;;  (interactive "P")
+;;  (other-window (- (prefix-numeric-value n))))
+;;(global-set-key "\C-xp" 'other-window-backward)
 
 
 ;; undo-tree

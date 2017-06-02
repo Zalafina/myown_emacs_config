@@ -32,9 +32,9 @@
 ;;; ######## Change Other Setting Values ######## <<<
 
 ;;; ######## Packages initialize ######## >>>
-(require-package 'window-numbering)
-(require 'window-numbering)
-(window-numbering-mode 1)
+;;;(require-package 'window-numbering)
+;;;(require 'window-numbering)
+;;;(window-numbering-mode 1)
 ;;; ######## Packages initialize ######## <<<
 
 

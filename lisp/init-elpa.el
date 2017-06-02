@@ -35,8 +35,8 @@
              `("melpa" . ,(add-address-prefix "melpa.org/packages/")))
 (add-to-list 'package-archives
              `("melpa-stable" . ,(add-address-prefix "stable.melpa.org/packages/")))
-(add-to-list 'package-archives
-             `("popkit" . ,(add-address-prefix "elpa.popkit.org/packages/")))
+;;;(add-to-list 'package-archives
+;;;             `("popkit" . ,(add-address-prefix ;;;"elpa.popkit.org/packages/")))
 ;;;(add-to-list 'package-archives
 ;;;             `("marmalade" . ,(add-address-prefix "marmalade-repo.org/packages/")))
 
